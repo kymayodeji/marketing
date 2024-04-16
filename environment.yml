@@ -1,0 +1,52 @@
+# run command: conda env create -f environment.yml
+# then update: conda env update -f environment.yml
+
+name: marketing
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python 
+  - pip
+  - pip:
+      # Core Data Libraries
+      - numpy 
+      - pandas
+    
+      # Visualizations
+      - matplotlib 
+      - plotly 
+      - seaborn
+
+
+      # Jupyter
+      - jupyterlab 
+      - jupyterlab-server 
+      - jupyter-packaging 
+      - jupyter-server 
+      - ipywidgets 
+      - jupytext
+      - papermill 
+      - nbconvert 
+      - ipykernel
+
+      # Apps
+      - streamlit 
+      - dash 
+      - dash_bootstrap_components 
+
+      # Machine Learning
+      - statsmodels
+      - scikit-learn 
+      - xgboost 
+      - sklearn-pandas
+      - scikit-misc
+      - pycaret 
+
+     # Marketing
+      - pymc
+      - pymc-marketing
+
+      # Model Deployment
+      - gunicorn

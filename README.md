@@ -44,7 +44,7 @@ The CDNOW dataset contains the entire purchase history of a cohort of 23,570 ind
 5. Dashboard deployment files are being kept here
 
 
-
+Environment: Marketing (run the command conda env create -f environment.yml)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [EDA Notebook](link)
