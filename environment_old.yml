@@ -1,13 +1,13 @@
 # run command: conda env create -f environment.yml
 # then update: conda env update -f environment.yml
 
-name: py39pycaret
+name: marketing
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python 
   - pip
   - pip:
       # Core Data Libraries
